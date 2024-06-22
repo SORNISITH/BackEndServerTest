@@ -90,7 +90,7 @@ app?.post("/api/persons", (request, response) => {
   response.json(obj);
 });
 
-const PORT = 3009;
+const PORT = process.env.PORT || 3009;
 app?.listen(PORT, () => {
   console.log(`Server  running on port ${PORT}`);
 });
