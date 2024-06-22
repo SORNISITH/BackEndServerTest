@@ -1,0 +1,21 @@
+
+POST http://localhost:3009/api/persons
+Content-Type: application/json
+
+{
+  
+  "name" : "123Nz",
+  "number": "1231231"
+}
+
+#####
+
+GET http://localhost:3009/api/persons/10
+
+#####
+
+GET http://localhost:3009/api/persons
+
+
+#####
+GET http://localhost:3009/api/info
